@@ -4,11 +4,11 @@ var myFood = {
     fruit: "orange",
     drink: "water"
 };
-function myFunction(myObj){
+function myFunction(myObj) {
     var vegetableValue = myObj["vegetable"];
     var fruitValue = myObj["fruit"];
     var drinkValue = myObj["drink"];
-    return{ vegetableValue, fruitValue, drinkValue};
+    return { vegetableValue, fruitValue, drinkValue};
 }
 // Only change code above this line
 console.log(myFunction(myFood)); // Change this line
